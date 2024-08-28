@@ -1,0 +1,19 @@
+﻿  Building Custom Rule C:/levolver64/zlib-1.2.8/CMakeLists.txt
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+     Creating library C:/levolver64/zlib-1.2.8/Release/zlib.lib and object C:/levolver64/zlib-1.2.8/Release/zlib.exp
+  zlib.vcxproj -> C:\levolver64\zlib-1.2.8\Release\zlib.dll

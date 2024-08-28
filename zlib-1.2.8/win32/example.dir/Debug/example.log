@@ -1,0 +1,31 @@
+﻿Build started 2/21/2014 2:35:06 PM.
+     1>Project "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\example.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "example.dir\Debug\example.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/CMakeLists.txt
+         CMake does not need to re-run because C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8" /I"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"example.dir\Debug\\" /Fd"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/Debug/example.pdb" /Gd /TC /errorReport:prompt "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\test\example.c"  /Zm1000 
+         example.c
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"example.dir\Debug\example.exe.embed.manifest.res" example.dir\Debug\example_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\example.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Debug\zlibd.lib /MANIFEST /ManifestFile:"example.dir\Debug\example.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\example.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/Debug/example.lib" /MACHINE:X64 example.dir\Debug\example.exe.embed.manifest.res
+         example.dir\Debug\example.obj  /machine:x64 /debug 
+         example.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\example.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"example.dir\Debug\example.exe.embed.manifest" /manifest example.dir\Debug\example.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"example.dir\Debug\example.exe.embed.manifest.res" example.dir\Debug\example_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\example.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Debug\zlibd.lib /MANIFEST /ManifestFile:"example.dir\Debug\example.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\example.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/Debug/example.lib" /MACHINE:X64 example.dir\Debug\example.exe.embed.manifest.res
+         example.dir\Debug\example.obj  /machine:x64 /debug 
+         example.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\example.exe
+       FinalizeBuildStatus:
+         Deleting file "example.dir\Debug\example.unsuccessfulbuild".
+         Touching "example.dir\Debug\example.lastbuildstate".
+     1>Done Building Project "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\example.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.59

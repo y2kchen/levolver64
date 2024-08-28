@@ -1,0 +1,14 @@
+﻿Build started 3/7/2014 12:04:21 PM.
+     1>Project "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\ALL_BUILD.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Build all projects
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\ALL_BUILD\ALL_BUILD.unsuccessfulbuild".
+         Touching "x64\Debug\ALL_BUILD\ALL_BUILD.lastbuildstate".
+     1>Done Building Project "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\ALL_BUILD.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

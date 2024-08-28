@@ -1,0 +1,10 @@
+^C:\METIS\METIS-4.0\CMAKEFILES\C68DDBC50E3D21AA403738B346844918\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/metis/metis-4.0 -BC:/metis/metis-4.0 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/metis/metis-4.0/METIS.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

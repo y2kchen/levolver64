@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\zconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\crc32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\deflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzguts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inffast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inffixed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inflate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inftrees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\trees.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\zutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\zlib1.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{337E351B-8DAC-4883-BF42-85201040FC24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{BF6BEC77-D20A-4B2F-A621-745B40E02FF8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\contrib\masmx64\gvmat64.asm" />
+    <None Include="C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\contrib\masmx64\inffasx64.asm" />
+  </ItemGroup>
+</Project>

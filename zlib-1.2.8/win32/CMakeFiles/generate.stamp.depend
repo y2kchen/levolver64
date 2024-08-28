@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/CMakeLists.txt
+C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeSystem.cmake
+C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeCPlatform.cmake
+C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeCXXPlatform.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCSourceCompiles.cmake
+C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/zlib.pc.cmakein
+C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/zconf.h.cmakein

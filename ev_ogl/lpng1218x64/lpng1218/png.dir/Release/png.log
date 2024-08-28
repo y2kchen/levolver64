@@ -1,0 +1,181 @@
+﻿  Building Custom Rule C:/levolver64/ev_ogl/lpng1218x64/lpng1218/CMakeLists.txt
+  adler32.c
+  compress.c
+  crc32.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\crc32.c(206,1): warning C4142: 'get_crc_table': benign redefinition of type
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\zlib.h(1748,37): message : see declaration of 'get_crc_table'
+  deflate.c
+  example.c
+  gzio.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(131,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(181,24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(226,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(503,13): error C2143: syntax error: missing ')' before '->'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(503,13): error C2143: syntax error: missing '{' before '->'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(503,13): error C2059: syntax error: '->'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(505,1): error C2449: found '{' at file scope (missing function header?)
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(509,1): error C2059: syntax error: '}'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(518,1): error C2449: found '{' at file scope (missing function header?)
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(528,1): error C2059: syntax error: '}'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(544,1): error C2449: found '{' at file scope (missing function header?)
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(551,1): error C2059: syntax error: '}'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(561,12): error C2373: 'buf': redefinition; different type modifiers
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(542,11): message : see declaration of 'buf'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(562,17): warning C4142: 'len': benign redefinition of type
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(543,9): message : see declaration of 'len'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(563,1): error C2449: found '{' at file scope (missing function header?)
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(592,1): error C2059: syntax error: '}'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(1008,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(1009,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(1010,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\gzio.c(1001,38): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  infback.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\infback.c(58,12): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+  inffast.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inffast.c(109,20): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+  inflate.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(120,12): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(343,16): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(351,16): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(355,38): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(357,40): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(357,70): warning C4022: 'memcpy': pointer mismatch for actual parameter 2
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(357,9): error C2168: 'memcpy': too few actual parameters for intrinsic function
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(361,20): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(365,20): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(366,24): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(366,54): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(1051,35): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(1052,36): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.c(1056,52): error C2039: 'write': is not a member of 'inflate_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inflate.h(81,8): message : see declaration of 'inflate_state'
+  inftrees.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inftrees.c(212,46): error C2065: 'MAXD': undeclared identifier
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inftrees.c(212,30): warning C4018: '>=': signed/unsigned mismatch
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inftrees.c(280,54): error C2065: 'MAXD': undeclared identifier
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\inftrees.c(280,38): warning C4018: '>=': signed/unsigned mismatch
+  minigzip.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(201,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(202,5): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(204,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(216,5): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(232,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(241,9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(248,11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(256,5): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(277,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(301,9): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(302,9): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(304,28): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\minigzip.c(308,28): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  png.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\png.c(685,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngerror.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngerror.c(116,14): warning C4114: same type qualifier used more than once
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngerror.c(149,7): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pnggccrd.c
+  pngget.c
+  pngmem.c
+  pngpread.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngpread.c(527,31): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngpread.c(543,31): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngpread.c(708,29): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngpread.c(731,29): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngpread.c(1285,64): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngpread.c(1499,8): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngread.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngread.c(120,11): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngread.c(124,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngread.c(200,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngread.c(204,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngrio.c
+  pngrtran.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngrtran.c(1253,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  Compiling...
+  pngrutil.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngrutil.c(214,59): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngrutil.c(238,69): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngrutil.c(301,65): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngrutil.c(285,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngrutil.c(288,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngrutil.c(291,13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngrutil.c(324,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngrutil.c(1060,33): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngrutil.c(1153,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngrutil.c(2187,8): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngset.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngset.c(396,33): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngset.c(412,31): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngset.c(434,38): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngset.c(685,72): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngset.c(691,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngset.c(977,36): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngset.c(979,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngset.c(1010,55): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngset.c(1029,60): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngset.c(1028,9): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngtest.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngtest.c(1013,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngtest.c(1047,70): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngtest.c(1153,10): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngtest.c(1174,74): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngtest.c(633,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngtest.c(644,17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngtest.c(1218,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngtest.c(1229,17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngtrans.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngtrans.c(255,14): warning C4114: same type qualifier used more than once
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngtrans.c(290,14): warning C4114: same type qualifier used more than once
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngtrans.c(325,14): warning C4114: same type qualifier used more than once
+  pngvcrd.c
+  pngwio.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwio.c(53,12): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+  pngwrite.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwrite.c(422,11): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwrite.c(520,11): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwrite.c(524,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwrite.c(590,9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwrite.c(594,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  pngwtran.c
+  pngwutil.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwutil.c(177,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwutil.c(185,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwutil.c(1239,10): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwutil.c(1347,85): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwutil.c(1566,45): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwutil.c(1625,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\pngwutil.c(1627,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  trees.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\trees.c(76,1): warning C4005: 'Buf_size': macro redefinition
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\deflate.h(51,1): message : see previous definition of 'Buf_size'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\trees.c(398,8): error C2039: 'last_eob_len': is not a member of 'internal_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\deflate.h(97,16): message : see declaration of 'internal_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\trees.c(906,16): error C2039: 'last_eob_len': is not a member of 'internal_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\deflate.h(97,16): message : see declaration of 'internal_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\trees.c(914,8): error C2039: 'last_eob_len': is not a member of 'internal_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\deflate.h(97,16): message : see declaration of 'internal_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\trees.c(1117,8): error C2039: 'last_eob_len': is not a member of 'internal_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\deflate.h(97,16): message : see declaration of 'internal_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\trees.c(1204,8): error C2039: 'last_eob_len': is not a member of 'internal_state'
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\deflate.h(97,16): message : see declaration of 'internal_state'
+  uncompr.c
+  xplanet_png.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\xplanet_png.c(29,20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  zutil.c
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\zutil.c(14,20): error C2373: 'z_errmsg': redefinition; different type modifiers
+C:\levolver64\ev_ogl\lpng1218x64\lpng1218\lib\zutil.h(47,29): message : see declaration of 'z_errmsg'
+  Generating Code...

@@ -1,0 +1,53 @@
+﻿Build started 3/7/2014 1:12:50 PM.
+     1>Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\zlib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Win32_LIB_Release\ZLib\zlib.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\zlib /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Release\ZLib\\" /Fd".\Win32_LIB_Release\ZLib\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\adler32.c ..\..\compress.c ..\..\crc32.c ..\..\deflate.c ..\..\gzio.c ..\..\infback.c ..\..\inffast.c ..\..\inflate.c ..\..\inftrees.c ..\..\trees.c ..\..\uncompr.c ..\..\zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzio.c
+     1>..\..\gzio.c(131): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\..\gzio.c(181): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>..\..\gzio.c(226): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\gzio.c(627): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_vsnprintf'
+     1>..\..\gzio.c(1001): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : see declaration of 'strerror'
+     1>..\..\gzio.c(1008): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\..\gzio.c(1009): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\..\gzio.c(1010): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Win32_LIB_Release\ZLib\zlib.lib" /NOLOGO .\Win32_LIB_Release\ZLib\adler32.obj
+         .\Win32_LIB_Release\ZLib\compress.obj
+         .\Win32_LIB_Release\ZLib\crc32.obj
+         .\Win32_LIB_Release\ZLib\deflate.obj
+         .\Win32_LIB_Release\ZLib\gzio.obj
+         .\Win32_LIB_Release\ZLib\infback.obj
+         .\Win32_LIB_Release\ZLib\inffast.obj
+         .\Win32_LIB_Release\ZLib\inflate.obj
+         .\Win32_LIB_Release\ZLib\inftrees.obj
+         .\Win32_LIB_Release\ZLib\trees.obj
+         .\Win32_LIB_Release\ZLib\uncompr.obj
+         .\Win32_LIB_Release\ZLib\zutil.obj
+         zlib.vcxproj -> C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\.\Win32_LIB_Release\ZLib\zlib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Win32_LIB_Release\ZLib\zlib.unsuccessfulbuild".
+         Touching ".\Win32_LIB_Release\ZLib\zlib.lastbuildstate".
+     1>Done Building Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\zlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.91

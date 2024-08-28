@@ -1,0 +1,4 @@
+C:/levolver64/ev_ogl/lpng1218x64/lpng1218/CMakeFiles/png.dir
+C:/levolver64/ev_ogl/lpng1218x64/lpng1218/CMakeFiles/INSTALL.dir
+C:/levolver64/ev_ogl/lpng1218x64/lpng1218/CMakeFiles/ALL_BUILD.dir
+C:/levolver64/ev_ogl/lpng1218x64/lpng1218/CMakeFiles/ZERO_CHECK.dir

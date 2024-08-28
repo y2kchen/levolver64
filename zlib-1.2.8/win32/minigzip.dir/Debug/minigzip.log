@@ -1,0 +1,31 @@
+﻿Build started 2/21/2014 2:35:06 PM.
+     1>Project "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\minigzip.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "minigzip.dir\Debug\minigzip.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/CMakeLists.txt
+         CMake does not need to re-run because C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8" /I"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"minigzip.dir\Debug\\" /Fd"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/Debug/minigzip.pdb" /Gd /TC /errorReport:prompt "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\test\minigzip.c"  /Zm1000 
+         minigzip.c
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"minigzip.dir\Debug\minigzip.exe.embed.manifest.res" minigzip.dir\Debug\minigzip_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\minigzip.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Debug\zlibd.lib /MANIFEST /ManifestFile:"minigzip.dir\Debug\minigzip.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\minigzip.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/Debug/minigzip.lib" /MACHINE:X64 minigzip.dir\Debug\minigzip.exe.embed.manifest.res
+         minigzip.dir\Debug\minigzip.obj  /machine:x64 /debug 
+         minigzip.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\minigzip.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"minigzip.dir\Debug\minigzip.exe.embed.manifest" /manifest minigzip.dir\Debug\minigzip.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"minigzip.dir\Debug\minigzip.exe.embed.manifest.res" minigzip.dir\Debug\minigzip_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\minigzip.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Debug\zlibd.lib /MANIFEST /ManifestFile:"minigzip.dir\Debug\minigzip.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\minigzip.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/Debug/minigzip.lib" /MACHINE:X64 minigzip.dir\Debug\minigzip.exe.embed.manifest.res
+         minigzip.dir\Debug\minigzip.obj  /machine:x64 /debug 
+         minigzip.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\minigzip.exe
+       FinalizeBuildStatus:
+         Deleting file "minigzip.dir\Debug\minigzip.unsuccessfulbuild".
+         Touching "minigzip.dir\Debug\minigzip.lastbuildstate".
+     1>Done Building Project "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\minigzip.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.54

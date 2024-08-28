@@ -1,0 +1,3 @@
+C:/metis/metis-4.0/CMakeFiles/metis.dir
+C:/metis/metis-4.0/CMakeFiles/ALL_BUILD.dir
+C:/metis/metis-4.0/CMakeFiles/ZERO_CHECK.dir

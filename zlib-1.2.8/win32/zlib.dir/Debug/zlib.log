@@ -1,0 +1,79 @@
+﻿Build started 2/21/2014 2:35:05 PM.
+     1>Project "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\zlib.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "zlib.dir\Debug\zlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/CMakeLists.txt
+         CMake does not need to re-run because C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8" /I"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D ZLIB_DLL /D _WINDLL /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"zlib.dir\Debug\\" /Fd"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/Debug/zlibd.pdb" /Gd /TC /errorReport:prompt "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\adler32.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\compress.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\crc32.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\deflate.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzclose.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzlib.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzread.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzwrite.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inflate.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\infback.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inftrees.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inffast.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\trees.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\uncompr.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\zutil.c"  /Zm1000 
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         inflate.c
+         infback.c
+         inftrees.c
+         inffast.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D WIN32 /D _WINDOWS /D _DEBUG /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\\"Debug\\\"" /D ZLIB_DLL /l"0x0409" /I"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8" /I"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32" /nologo /fo"zlib.dir\Debug\zlib1.res" C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\zlib1.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"zlib.dir\Debug\zlibd.dll.embed.manifest.res" zlib.dir\Debug\zlibd_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\zlibd.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"zlib.dir\Debug\zlibd.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\zlibd.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/Debug/zlibd.lib" /MACHINE:X64 /DLL zlib.dir\Debug\zlib1.res
+         zlib.dir\Debug\zlibd.dll.embed.manifest.res
+         zlib.dir\Debug\adler32.obj
+         zlib.dir\Debug\compress.obj
+         zlib.dir\Debug\crc32.obj
+         zlib.dir\Debug\deflate.obj
+         zlib.dir\Debug\gzclose.obj
+         zlib.dir\Debug\gzlib.obj
+         zlib.dir\Debug\gzread.obj
+         zlib.dir\Debug\gzwrite.obj
+         zlib.dir\Debug\inflate.obj
+         zlib.dir\Debug\infback.obj
+         zlib.dir\Debug\inftrees.obj
+         zlib.dir\Debug\inffast.obj
+         zlib.dir\Debug\trees.obj
+         zlib.dir\Debug\uncompr.obj
+         zlib.dir\Debug\zutil.obj  /machine:x64 /debug 
+            Creating library C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/Debug/zlibd.lib and object C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/Debug/zlibd.exp
+         zlib.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\zlibd.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"zlib.dir\Debug\zlibd.dll.embed.manifest" /manifest zlib.dir\Debug\zlibd.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"zlib.dir\Debug\zlibd.dll.embed.manifest.res" zlib.dir\Debug\zlibd_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\zlibd.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"zlib.dir\Debug\zlibd.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\zlibd.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/Debug/zlibd.lib" /MACHINE:X64 /DLL zlib.dir\Debug\zlib1.res
+         zlib.dir\Debug\zlibd.dll.embed.manifest.res
+         zlib.dir\Debug\adler32.obj
+         zlib.dir\Debug\compress.obj
+         zlib.dir\Debug\crc32.obj
+         zlib.dir\Debug\deflate.obj
+         zlib.dir\Debug\gzclose.obj
+         zlib.dir\Debug\gzlib.obj
+         zlib.dir\Debug\gzread.obj
+         zlib.dir\Debug\gzwrite.obj
+         zlib.dir\Debug\inflate.obj
+         zlib.dir\Debug\infback.obj
+         zlib.dir\Debug\inftrees.obj
+         zlib.dir\Debug\inffast.obj
+         zlib.dir\Debug\trees.obj
+         zlib.dir\Debug\uncompr.obj
+         zlib.dir\Debug\zutil.obj  /machine:x64 /debug 
+         zlib.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\Debug\zlibd.dll
+       FinalizeBuildStatus:
+         Deleting file "zlib.dir\Debug\zlib.unsuccessfulbuild".
+         Touching "zlib.dir\Debug\zlib.lastbuildstate".
+     1>Done Building Project "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\zlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.12

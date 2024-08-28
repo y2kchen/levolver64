@@ -1,0 +1,80 @@
+﻿Build started 3/7/2014 1:25:55 PM.
+     1>Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\pngtest.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\LIB Release\pngtest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\LIB Release\\" /Fd"x64\LIB Release\vc100.pdb" /Gd /TC /errorReport:prompt ..\..\pngtest.c
+         pngtest.c
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\x64\LIB Release\pngtest.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\LIB Release\pngtest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\x64\LIB Release\pngtest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\x64\LIB Release\pngtest.lib" /MACHINE:X64 "x64\LIB Release\pngtest.obj"
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_image_height referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_image_width referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_write_end referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_read_end referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_free_data referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_write_rows referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_read_rows referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_interlace_handling referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_malloc referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_rowbytes referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_write_info referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_unknown_chunk_location referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_unknown_chunks referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_unknown_chunks referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_tRNS referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_tRNS referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_convert_to_rfc1123 referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_tIME referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_tIME referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_text referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_text referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_sCAL referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_sCAL referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_sBIT referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_sBIT referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_pHYs referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_pHYs referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_pCAL referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_pCAL referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_oFFs referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_oFFs referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_hIST referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_hIST referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_bKGD referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_bKGD referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_PLTE referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_PLTE referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_sRGB referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_sRGB referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_iCCP referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_iCCP referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_gAMA_fixed referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_gAMA_fixed referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_cHRM_fixed referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_cHRM_fixed referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_IHDR referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_IHDR referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_read_info referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_keep_unknown_chunks referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_write_user_transform_fn referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_read_user_transform_fn referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_read_status_fn referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_set_write_status_fn referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_init_io referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_destroy_write_struct referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_destroy_info_struct referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_destroy_read_struct referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_free referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_create_info_struct referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_create_write_struct referenced in function test_one_file
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_create_read_struct referenced in function test_one_file
+     1>pngtest.obj : error LNK2001: unresolved external symbol png_libpng_ver
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_access_version_number referenced in function main
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_header_version referenced in function main
+     1>pngtest.obj : error LNK2019: unresolved external symbol png_get_copyright referenced in function main
+     1>C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\x64\LIB Release\pngtest.exe : fatal error LNK1120: 65 unresolved externals
+     1>Done Building Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\pngtest.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.16

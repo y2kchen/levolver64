@@ -1,0 +1,103 @@
+﻿Build started 3/7/2014 11:54:43 AM.
+     1>Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\libpng.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Win32_LIB_Release\libpng.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\.. /I..\..\..\zlib /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"png.h" /Fp".\Win32_LIB_Release\libpng.pch" /Fo".\Win32_LIB_Release\\" /Fd".\Win32_LIB_Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\pngerror.c
+         pngerror.c
+     1>..\..\pngerror.c(116): warning C4114: same type qualifier used more than once
+     1>..\..\pngerror.c(149): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\.. /I..\..\..\zlib /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Win32_LIB_Release\\" /Fd".\Win32_LIB_Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\png.c
+         png.c
+     1>..\..\png.c(688): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\.. /I..\..\..\zlib /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"png.h" /Fp".\Win32_LIB_Release\libpng.pch" /Fo".\Win32_LIB_Release\\" /Fd".\Win32_LIB_Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\pngget.c ..\..\pngmem.c ..\..\pngpread.c ..\..\pngread.c ..\..\pngrio.c ..\..\pngrtran.c ..\..\pngrutil.c ..\..\pngset.c ..\..\pngtrans.c ..\..\pngwio.c ..\..\pngwrite.c ..\..\pngwtran.c ..\..\pngwutil.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+     1>..\..\pngpread.c(1499): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         pngread.c
+     1>..\..\pngread.c(121): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngread.c(125): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngread.c(201): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngread.c(205): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         pngrio.c
+         pngrtran.c
+     1>..\..\pngrtran.c(1254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         pngrutil.c
+     1>..\..\pngrutil.c(286): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngrutil.c(289): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngrutil.c(292): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngrutil.c(324): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngrutil.c(2187): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         pngset.c
+     1>..\..\pngset.c(691): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\..\pngset.c(979): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\..\pngset.c(1028): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+         pngtrans.c
+     1>..\..\pngtrans.c(255): warning C4114: same type qualifier used more than once
+     1>..\..\pngtrans.c(290): warning C4114: same type qualifier used more than once
+     1>..\..\pngtrans.c(325): warning C4114: same type qualifier used more than once
+         pngwio.c
+         pngwrite.c
+     1>..\..\pngwrite.c(422): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(99) : see declaration of 'gmtime'
+     1>..\..\pngwrite.c(521): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngwrite.c(525): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngwrite.c(591): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngwrite.c(595): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         pngwtran.c
+         pngwutil.c
+     1>..\..\pngwutil.c(185): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngwutil.c(1239): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngwutil.c(1625): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>..\..\pngwutil.c(1627): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         Generating Code...
+     1>Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\libpng.vcxproj" (1) is building "C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\zlib.vcxproj" (2:3) on node 3 (GetResolvedLinkLibs target(s)).
+     2>PrepareForBuild:
+         Creating directory ".\Win32_LIB_Release\ZLib\".
+     2>Done Building Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\zlib.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\Win32_LIB_Release\libpng.lib" /NOLOGO .\Win32_LIB_Release\png.obj
+         .\Win32_LIB_Release\pngerror.obj
+         .\Win32_LIB_Release\pngget.obj
+         .\Win32_LIB_Release\pngmem.obj
+         .\Win32_LIB_Release\pngpread.obj
+         .\Win32_LIB_Release\pngread.obj
+         .\Win32_LIB_Release\pngrio.obj
+         .\Win32_LIB_Release\pngrtran.obj
+         .\Win32_LIB_Release\pngrutil.obj
+         .\Win32_LIB_Release\pngset.obj
+         .\Win32_LIB_Release\pngtrans.obj
+         .\Win32_LIB_Release\pngwio.obj
+         .\Win32_LIB_Release\pngwrite.obj
+         .\Win32_LIB_Release\pngwtran.obj
+         .\Win32_LIB_Release\pngwutil.obj
+         libpng.vcxproj -> C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\.\Win32_LIB_Release\libpng.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Win32_LIB_Release\libpng.unsuccessfulbuild".
+         Touching ".\Win32_LIB_Release\libpng.lastbuildstate".
+     1>Done Building Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\libpng.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.63

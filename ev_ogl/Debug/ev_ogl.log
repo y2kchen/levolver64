@@ -1,0 +1,142 @@
+﻿Build started 11/27/2013 7:09:54 PM.
+     1>Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\ev_ogl.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\ev_ogl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I\glut /I"\metis\metis-4.0\lib" /ZI /nologo /W3 /WX- /Od /Oy- /D __L_EVOLVER__ /D _DEBUG /D WIN32 /D _CONSOLE /D MSC /D MAXCOORD=10 /D METIS /D OPENGL /D WINTHREADS /D MEMSTRINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt EVALMORE.C /wd4131  /wd4100 
+         EVALMORE.C
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/ev_ogl.exe" /INCREMENTAL /NOLOGO /LIBPATH:c:\glut /LIBPATH:"c:\metis\metis-4.0\lib" Psapi.lib glut32.lib odbc32.lib setargv.obj odbccp32.lib metis.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /MANIFEST /ManifestFile:".\Debug\ev_ogl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/ev_ogl.pdb" /SUBSYSTEM:CONSOLE /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:".\Debug\ev_ogl.lib" /MACHINE:X86 .\Debug\ev_ogl.exe.embed.manifest.res
+         .\Debug/ALICE.obj
+         .\Debug/BK.obj
+         .\Debug/BOUNDARY.obj
+         .\Debug/CALCFORC.obj
+         .\Debug/CHECK.obj
+         .\Debug/CNSTRNT.obj
+         .\Debug/COMMAND.obj
+         .\Debug/CURTEST.obj
+         .\Debug/DIFFUSE.obj
+         .\Debug/DISPLAY.obj
+         .\Debug/dodecGroup.obj
+         .\Debug/DUMP.obj
+         .\Debug/EVAL_ALL.obj
+         .\Debug/EVAL_SEC.obj
+         .\Debug/EVALMORE.obj
+         .\Debug/EVALTREE.obj
+         .\Debug/EXPRINT.obj
+         .\Debug/FILGRAPH.obj
+         .\Debug/FILML.obj
+         .\Debug/FILMQ.obj
+         .\Debug/FIXVOL.obj
+         .\Debug/GAUSS.obj
+         .\Debug/geomgraph.obj
+         .\Debug/glutgraph.obj
+         .\Debug/GRAPHER.obj
+         .\Debug/GRAPHGEN.obj
+         .\Debug/HELP.obj
+         .\Debug/HESSIAN.obj
+         .\Debug/HESSIAN2.obj
+         .\Debug/HESSIAN3.obj
+         .\Debug/HIDIM.obj
+         .\Debug/ITERATE.obj
+         .\Debug/KHYP.obj
+         .\Debug/KLEIN.obj
+         .\Debug/KNOT1.obj
+         .\Debug/KNOT2.obj
+         .\Debug/KNOT3.obj
+         .\Debug/KUSNER.obj
+         .\Debug/LAGRANGE.obj
+         .\Debug/LEXINIT.obj
+         .\Debug/LEXINIT2.obj
+         .\Debug/LEXYY.obj
+         .\Debug/MACHINE.obj
+         .\Debug/MATRIX.obj
+         .\Debug/MEANINT.obj
+         .\Debug/METHOD1.obj
+         .\Debug/METHOD2.obj
+         .\Debug/METHOD3.obj
+         .\Debug/METHOD4.obj
+         .\Debug/method5.obj
+         .\Debug/METIS.obj
+         .\Debug/METRIC.obj
+         .\Debug/MINDEG.obj
+         .\Debug/MODEL.obj
+         .\Debug/MODIFY.obj
+         .\Debug/MVGRAPH.obj
+         .\Debug/ODRV.obj
+         .\Debug/PAINTER.obj
+         .\Debug/PIXGRAPH.obj
+         .\Debug/POPFILM.obj
+         .\Debug/PSGRAPH.obj
+         .\Debug/QUANTITY.obj
+         .\Debug/QUERY.obj
+         .\Debug/QUOTIENT.obj
+         .\Debug/REGISTRY.obj
+         .\Debug/SDRV.obj
+         .\Debug/SIMEQUI2.obj
+         .\Debug/SIMPLEX.obj
+         .\Debug/skeleton.obj
+         .\Debug/SOFTIMAG.obj
+         .\Debug/SQCURVE.obj
+         .\Debug/SQCURVE2.obj
+         .\Debug/SQCURVE3.obj
+         .\Debug/STORAGE.obj
+         .\Debug/STRINGL.obj
+         .\Debug/STRINGQ.obj
+         .\Debug/SYMTABLE.obj
+         .\Debug/TEIX.obj
+         .\Debug/tmain.obj
+         .\Debug/TORDUP.obj
+         .\Debug/TORUS.obj
+         .\Debug/TORVOL.obj
+         .\Debug/TRIREVIS.obj
+         .\Debug/USERFUNC.obj
+         .\Debug/userio.obj
+         .\Debug/UTILITY.obj
+         .\Debug/variable.obj
+         .\Debug/VERAVG.obj
+         .\Debug/VERPOPST.obj
+         .\Debug/WULFF.obj
+         .\Debug/YEXPARSE.obj
+         .\Debug/YTAB.obj
+         .\Debug/ZOOM.obj /MACHINE:I386 /FORCE:MULTIPLE 
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+     1>png.lib(png.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'png.lib(png.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngerror.lib(pngerror.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngerror.lib(pngerror.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngrio.lib(pngrio.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngrio.lib(pngrio.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngwio.lib(pngwio.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngwio.lib(pngwio.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngmem.lib(pngmem.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngmem.lib(pngmem.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngset.lib(pngset.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngset.lib(pngset.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngget.lib(pngget.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngget.lib(pngget.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngread.lib(pngread.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngread.lib(pngread.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngrtran.lib(pngrtran.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngrtran.lib(pngrtran.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngrutil.lib(pngrutil.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngrutil.lib(pngrutil.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngtrans.lib(pngtrans.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngtrans.lib(pngtrans.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngwrite.lib(pngwrite.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngwrite.lib(pngwrite.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngwtran.lib(pngwtran.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngwtran.lib(pngwtran.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>pngwutil.lib(pngwutil.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngwutil.lib(pngwutil.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>adler32.lib(adler32.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'adler32.lib(adler32.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>compress.lib(compress.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'compress.lib(compress.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>crc32.lib(crc32.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'crc32.lib(crc32.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>deflate.lib(deflate.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'deflate.lib(deflate.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>inffast.lib(inffast.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'inffast.lib(inffast.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>inflate.lib(inflate.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'inflate.lib(inflate.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>inftrees.lib(inftrees.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'inftrees.lib(inftrees.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>trees.lib(trees.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'trees.lib(trees.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+     1>zutil.lib(zutil.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'zutil.lib(zutil.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Debug\vc80.pdb'; linking object as if no debug info
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\ev_ogl.exe.embed.manifest" /manifest .\Debug\ev_ogl.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         ev_ogl.vcxproj -> C:\levolver\yonkang-sefit\levolver\ev_ogl\.\Debug\ev_ogl.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\ev_ogl.unsuccessfulbuild".
+         Touching ".\Debug\ev_ogl.lastbuildstate".
+     1>Done Building Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\ev_ogl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.10

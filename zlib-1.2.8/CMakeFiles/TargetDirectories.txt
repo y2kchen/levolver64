@@ -1,0 +1,8 @@
+C:/levolver64/zlib-1.2.8/CMakeFiles/zlib.dir
+C:/levolver64/zlib-1.2.8/CMakeFiles/zlibstatic.dir
+C:/levolver64/zlib-1.2.8/CMakeFiles/example.dir
+C:/levolver64/zlib-1.2.8/CMakeFiles/minigzip.dir
+C:/levolver64/zlib-1.2.8/CMakeFiles/RUN_TESTS.dir
+C:/levolver64/zlib-1.2.8/CMakeFiles/INSTALL.dir
+C:/levolver64/zlib-1.2.8/CMakeFiles/ALL_BUILD.dir
+C:/levolver64/zlib-1.2.8/CMakeFiles/ZERO_CHECK.dir

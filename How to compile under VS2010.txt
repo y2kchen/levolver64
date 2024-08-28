@@ -1,0 +1,66 @@
+3/28/2014 64 bit instructions, 32 bit instructions at the end of this file
+glut32 cannot be used , rather use the files that are in C:\levolver\yonkang-sefit\levolver64\glut64 There is a note in the directory: "glut.def is for 32 bit"
+Also, "glut.h" has to be modified:
+#    //pragma comment (lib, "glut32.lib")   /* link with Win32 GLUT lib */
+
+In order to compile Ben Semerjian's lpng1218 code this directory was created:
+C:\levolver\yonkang-sefit\levolver64\ev_ogl\lpng1218x64\lib64
+Created by running Visual Studio x64 Win64 Command Prompt (2010), which gives plenty of warnings,
+C:\levolver\yonkang-sefit\levolver64\ev_ogl\lpng1218x64\lpng1218\makeLibs.bat
+
+metis was updated and rebuilt for 64 bit here :
+C:\metis\metis-5.1.0\build\windows\libmetis\Debug
+
+Addendum
+opengl32 is actually 64 bit if you take it from this directory:
+%ProgramFiles%\Microsoft SDKs\Windows\<version>\Lib\x64\OpenGL32.lib
+
+glutgraph.c was modified and needs to eventually be changed such that it is both 32 bit and 64 bit compatible:
+
+#include <stdio.h>     // added by Y Chen, 10/13/2010
+//#include <windows.h>
+//#include "glut/glut.h"		// Changed by PSU.
+#include "../glut64/glut.h"		// Changed by  to support 64 bit build, Ben Schaeffer 3/21/2014
+
+//Following chunk of code added by PSU.
+#include "lpng1218/xplanet_png.c"   //PNG library.
+//changed #pragma code to support 64 bit build, Ben Schaeffer 3/21/2014
+#pragma comment(lib, "lib64/png.lib")
+#pragma comment(lib, "lib64/pngerror.lib")
+
+Under the projects property pages|Configuration Properties|C/C++|General|Additional Include Directories: 
+C:\metis\metis-4.0\lib;%Program Files%\Microsoft SDKs\Windows\v7.0A\Include\gl;%(AdditionalIncludeDirectories)
+
+For some reason the following does not correctly compile: 
+%Program Files%\Microsoft SDKs\Windows\v7.0A\Include\gl;C:\metis\metis-5.1.0\include;%(AdditionalIncludeDirectories) 
+
+Minor change under the projects property pages|Configuration Properties|C/C++|Preprocessor|Preprocessor Definitions:
+DPSAPI_VERSION=1;__L_EVOLVER__;NDEBUG;WIN64;_CONSOLE;MSC;MAXCOORD=6;METIS;OPENGL;WINTHREADS;INLINE=__inline;MEMSTRINGS;%(PreprocessorDefinitions)
+
+Even though later on linking is performed with metis-5.1.0 libraries
+
+Under the projects property pages|Configuration Properties|Linker|General|Additional Library Directories:
+C:\levolver\yonkang-sefit\levolver64\ev_ogl\lib64;..\glut64;C:\metis\metis-5.1.0\build\windows\libmetis\Debug;%(AdditionalLibraryDirectories)
+
+Under the projects property pages|Configuration Properties|Linker|Input|Additional Dependencies:
+glut64.lib;Psapi.lib;glu32.lib;opengl32.lib;odbc32.lib;odbccp32.lib;setargv.obj;metis.lib;%(AdditionalDependencies)
+
+Automatically this was set ->
+Under the projects property pages|Configuration Properties|Linker|Advanced|Target Machine:
+MachineX64 (/MACHINE:X64)
+
+And continuing on to the command line: 
+/OUT:"C:\levolver\yonkang-sefit\levolver64\x64\Release64\ev_ogl.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\levolver\yonkang-sefit\levolver64\ev_ogl\lib64" /LIBPATH:"..\glut64" /LIBPATH:"C:\metis\metis-5.1.0\build\windows\libmetis\Debug" "glut64.lib" "Psapi.lib" "glu32.lib" "opengl32.lib" "odbc32.lib" "odbccp32.lib" "setargv.obj" "metis.lib" "kernel32.lib" "user32.lib" "gdi32.lib" "winspool.lib" "comdlg32.lib" "advapi32.lib" "shell32.lib" "ole32.lib" "oleaut32.lib" "uuid.lib" /NODEFAULTLIB:"libc.lib" /MANIFEST /ManifestFile:"x64\Release64\ev_ogl.exe.intermediate.manifest" /ALLOWISOLATION /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\levolver\yonkang-sefit\levolver64\x64\Release64\ev_ogl.pdb" /PGD:"C:\levolver\yonkang-sefit\levolver64\x64\Release64\ev_ogl.pgd" /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 /ERRORREPORT:QUEUE 
+
+----------
+6/19/2012 (old instructions for building 32 bit version)
+
+The program "levolver" is a modified version of Surface Evolver with a Fluid Interface Tool layer added for exchanging information with the "SE-FIT.exe" graphical user interface.
+
+Notes for building "levolver":
+
+Step one. Copy "glut" and "metis" to the root directory "c:\" (at PSU they are both on "Y:\yongkang\FIT DEV\MISC")
+
+Step two. Compile the solution "ev_ogl.sln". There may be a final error message about being unable to copy the file which can be ignored.
+
+Step three. Copy and rename the executable file to the directory where "SE-FIT.exe" is: "C:\levolver\ev_ogl_20111205\ev_ogl\Release\levolver.exe" -> "C:\sefit\levolver.exe". The file "glut32.dll" must also reside in the target directory, i.e. "C:\sefit\".

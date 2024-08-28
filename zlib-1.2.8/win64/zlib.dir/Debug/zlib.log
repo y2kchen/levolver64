@@ -1,0 +1,41 @@
+﻿Build started 3/7/2014 12:04:19 PM.
+     1>Project "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\zlib.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "zlib.dir\Debug\zlib.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\Debug\zlibd.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"zlib.dir\Debug\zlibd.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\Debug\zlibd.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win64/Debug/zlibd.lib" /MACHINE:X64 /DLL zlib.dir\Debug\zlib1.res
+         zlib.dir\Debug\zlibd.dll.embed.manifest.res
+         zlib.dir\Debug\adler32.obj
+         zlib.dir\Debug\compress.obj
+         zlib.dir\Debug\crc32.obj
+         zlib.dir\Debug\deflate.obj
+         zlib.dir\Debug\gzclose.obj
+         zlib.dir\Debug\gzlib.obj
+         zlib.dir\Debug\gzread.obj
+         zlib.dir\Debug\gzwrite.obj
+         zlib.dir\Debug\inflate.obj
+         zlib.dir\Debug\infback.obj
+         zlib.dir\Debug\inftrees.obj
+         zlib.dir\Debug\inffast.obj
+         zlib.dir\Debug\trees.obj
+         zlib.dir\Debug\uncompr.obj
+         zlib.dir\Debug\zutil.obj  /machine:x64 /debug 
+            Creating library C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win64/Debug/zlibd.lib and object C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win64/Debug/zlibd.exp
+     1>deflate.obj : error LNK2019: unresolved external symbol match_init referenced in function lm_init
+     1>deflate.obj : error LNK2019: unresolved external symbol longest_match referenced in function deflate_fast
+     1>inflate.obj : error LNK2019: unresolved external symbol inflate_fast referenced in function inflate
+     1>infback.obj : error LNK2001: unresolved external symbol inflate_fast
+     1>C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\Debug\zlibd.dll : fatal error LNK1120: 3 unresolved externals
+     1>Done Building Project "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\zlib.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.12

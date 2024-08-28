@@ -1,0 +1,10 @@
+^C:\LEVOLVER64\EV_OGL\LPNG1218X64\LPNG1218\CMAKEFILES\B337D0FEA8F8DF1ACF7609A6BF31624B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/levolver64/ev_ogl/lpng1218x64/lpng1218 -BC:/levolver64/ev_ogl/lpng1218x64/lpng1218 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/levolver64/ev_ogl/lpng1218x64/lpng1218/libpng.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

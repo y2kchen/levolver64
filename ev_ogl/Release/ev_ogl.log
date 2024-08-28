@@ -1,0 +1,248 @@
+﻿Build started 2/21/2014 1:14:28 PM.
+     1>Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\ev_ogl.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Release\ev_ogl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I\glut /I"\metis\metis-4.0\lib" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D DPSAPI_VERSION=1 /D __L_EVOLVER__ /D NDEBUG /D WIN32 /D _CONSOLE /D MSC /D MAXCOORD=6 /D METIS /D OPENGL /D WINTHREADS /D INLINE=__inline /D MEMSTRINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa".\Release/" /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ALICE.C BK.C BOUNDARY.C CALCFORC.C CHECK.C CNSTRNT.C COMMAND.C CURTEST.C DIFFUSE.C DISPLAY.C dodecGroup.c DUMP.C EVAL_ALL.C EVALMORE.C EVALTREE.C EXPRINT.C FILGRAPH.C FILML.C FILMQ.C FIXVOL.C GAUSS.C geomgraph.c glutgraph.c GRAPHER.C GRAPHGEN.C HELP.C HESSIAN.C HESSIAN2.C HESSIAN3.C HIDIM.C ITERATE.C KHYP.C KLEIN.C KNOT1.C KNOT2.C KNOT3.C KUSNER.C LAGRANGE.C LEXINIT.C LEXINIT2.C LEXYY.C MACHINE.C MATRIX.C MEANINT.C METHOD1.C METHOD2.C METHOD3.C METHOD4.C method5.c METIS.C METRIC.C MINDEG.C MODEL.C MODIFY.C MVGRAPH.C ODRV.C PAINTER.C PIXGRAPH.C POPFILM.C PSGRAPH.C QUANTITY.C QUERY.C QUOTIENT.C REGISTRY.C SDRV.C SIMEQUI2.C SIMPLEX.C skeleton.c SOFTIMAG.C SQCURVE.C SQCURVE2.C SQCURVE3.C STORAGE.C STRINGL.C STRINGQ.C SYMTABLE.C TEIX.C tmain.c TORDUP.C TORUS.C TORVOL.C TRIREVIS.C USERFUNC.C userio.c UTILITY.C variable.c VERAVG.C VERPOPST.C WULFF.C YEXPARSE.C YTAB.C ZOOM.C
+         ALICE.C
+         BK.C
+         BOUNDARY.C
+         CALCFORC.C
+         CHECK.C
+         CNSTRNT.C
+         COMMAND.C
+         CURTEST.C
+         DIFFUSE.C
+         DISPLAY.C
+         dodecGroup.c
+         DUMP.C
+     1>DUMP.C(124): warning C4018: '>' : signed/unsigned mismatch
+         EVAL_ALL.C
+         EVALMORE.C
+         EVALTREE.C
+     1>EVALTREE.C(1019): warning C4102: 'LEVBRK' : unreferenced label
+         EXPRINT.C
+         FILGRAPH.C
+         FILML.C
+         FILMQ.C
+         FIXVOL.C
+         Generating Code...
+         Compiling...
+         GAUSS.C
+         geomgraph.c
+         glutgraph.c
+     1>c:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218/xplanet_png.c(31): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>glutgraph.c(404): warning C4047: '=' : 'char' differs in levels of indirection from 'void *'
+         GRAPHER.C
+         GRAPHGEN.C
+         HELP.C
+         HESSIAN.C
+         HESSIAN2.C
+         HESSIAN3.C
+     1>HESSIAN3.C(1043): warning C4018: '>' : signed/unsigned mismatch
+     1>HESSIAN3.C(805): warning C4101: 'ii' : unreferenced local variable
+         HIDIM.C
+         ITERATE.C
+         KHYP.C
+         KLEIN.C
+         KNOT1.C
+         KNOT2.C
+         KNOT3.C
+         KUSNER.C
+         LAGRANGE.C
+         LEXINIT.C
+         LEXINIT2.C
+         Generating Code...
+         Compiling...
+         LEXYY.C
+         MACHINE.C
+         MATRIX.C
+         MEANINT.C
+         METHOD1.C
+         METHOD2.C
+         METHOD3.C
+         METHOD4.C
+         method5.c
+         METIS.C
+     1>C:\metis\metis-4.0\lib\proto.h(459): warning C4028: formal parameter 1 different from declaration
+         METRIC.C
+         MINDEG.C
+         MODEL.C
+         MODIFY.C
+         MVGRAPH.C
+         ODRV.C
+         PAINTER.C
+         PIXGRAPH.C
+         POPFILM.C
+         PSGRAPH.C
+         Generating Code...
+         Compiling...
+         QUANTITY.C
+         QUERY.C
+         QUOTIENT.C
+         REGISTRY.C
+         SDRV.C
+         SIMEQUI2.C
+         SIMPLEX.C
+         skeleton.c
+         SOFTIMAG.C
+         SQCURVE.C
+         SQCURVE2.C
+         SQCURVE3.C
+         STORAGE.C
+         STRINGL.C
+         STRINGQ.C
+         SYMTABLE.C
+         TEIX.C
+         tmain.c
+     1>tmain.c(134): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>tmain.c(1219): warning C4101: 'task_caller_elapsed_time' : unreferenced local variable
+         TORDUP.C
+         TORUS.C
+         Generating Code...
+         Compiling...
+         TORVOL.C
+         TRIREVIS.C
+         USERFUNC.C
+         userio.c
+         UTILITY.C
+         variable.c
+         VERAVG.C
+         VERPOPST.C
+         WULFF.C
+         YEXPARSE.C
+         YTAB.C
+         ZOOM.C
+         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I\glut /I"\metis\metis-4.0\lib" /Zi /nologo /W3 /WX- /Od /Ob1 /Oy- /D DPSAPI_VERSION=1 /D __L_EVOLVER__ /D NDEBUG /D WIN32 /D _CONSOLE /D MSC /D MAXCOORD=6 /D METIS /D OPENGL /D WINTHREADS /D INLINE=__inline /D MEMSTRINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAs /Fa".\Release/" /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt EVAL_SEC.C
+         EVAL_SEC.C
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release/levolver.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\glut /LIBPATH:"C:\metis\metis-4.0\Lib" /LIBPATH:c:\metis\metis4 Psapi.lib glu32.lib opengl32.lib odbc32.lib odbccp32.lib setargv.obj glut32.lib metis.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc.lib /MANIFEST /ManifestFile:".\Release\levolver.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\levolver.pdb" /SUBSYSTEM:CONSOLE /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:".\Release\levolver.lib" /MACHINE:X86 .\Release/ALICE.obj
+         .\Release/BK.obj
+         .\Release/BOUNDARY.obj
+         .\Release/CALCFORC.obj
+         .\Release/CHECK.obj
+         .\Release/CNSTRNT.obj
+         .\Release/COMMAND.obj
+         .\Release/CURTEST.obj
+         .\Release/DIFFUSE.obj
+         .\Release/DISPLAY.obj
+         .\Release/dodecGroup.obj
+         .\Release/DUMP.obj
+         .\Release/EVAL_ALL.obj
+         .\Release/EVAL_SEC.obj
+         .\Release/EVALMORE.obj
+         .\Release/EVALTREE.obj
+         .\Release/EXPRINT.obj
+         .\Release/FILGRAPH.obj
+         .\Release/FILML.obj
+         .\Release/FILMQ.obj
+         .\Release/FIXVOL.obj
+         .\Release/GAUSS.obj
+         .\Release/geomgraph.obj
+         .\Release/glutgraph.obj
+         .\Release/GRAPHER.obj
+         .\Release/GRAPHGEN.obj
+         .\Release/HELP.obj
+         .\Release/HESSIAN.obj
+         .\Release/HESSIAN2.obj
+         .\Release/HESSIAN3.obj
+         .\Release/HIDIM.obj
+         .\Release/ITERATE.obj
+         .\Release/KHYP.obj
+         .\Release/KLEIN.obj
+         .\Release/KNOT1.obj
+         .\Release/KNOT2.obj
+         .\Release/KNOT3.obj
+         .\Release/KUSNER.obj
+         .\Release/LAGRANGE.obj
+         .\Release/LEXINIT.obj
+         .\Release/LEXINIT2.obj
+         .\Release/LEXYY.obj
+         .\Release/MACHINE.obj
+         .\Release/MATRIX.obj
+         .\Release/MEANINT.obj
+         .\Release/METHOD1.obj
+         .\Release/METHOD2.obj
+         .\Release/METHOD3.obj
+         .\Release/METHOD4.obj
+         .\Release/method5.obj
+         .\Release/METIS.obj
+         .\Release/METRIC.obj
+         .\Release/MINDEG.obj
+         .\Release/MODEL.obj
+         .\Release/MODIFY.obj
+         .\Release/MVGRAPH.obj
+         .\Release/ODRV.obj
+         .\Release/PAINTER.obj
+         .\Release/PIXGRAPH.obj
+         .\Release/POPFILM.obj
+         .\Release/PSGRAPH.obj
+         .\Release/QUANTITY.obj
+         .\Release/QUERY.obj
+         .\Release/QUOTIENT.obj
+         .\Release/REGISTRY.obj
+         .\Release/SDRV.obj
+         .\Release/SIMEQUI2.obj
+         .\Release/SIMPLEX.obj
+         .\Release/skeleton.obj
+         .\Release/SOFTIMAG.obj
+         .\Release/SQCURVE.obj
+         .\Release/SQCURVE2.obj
+         .\Release/SQCURVE3.obj
+         .\Release/STORAGE.obj
+         .\Release/STRINGL.obj
+         .\Release/STRINGQ.obj
+         .\Release/SYMTABLE.obj
+         .\Release/TEIX.obj
+         .\Release/tmain.obj
+         .\Release/TORDUP.obj
+         .\Release/TORUS.obj
+         .\Release/TORVOL.obj
+         .\Release/TRIREVIS.obj
+         .\Release/USERFUNC.obj
+         .\Release/userio.obj
+         .\Release/UTILITY.obj
+         .\Release/variable.obj
+         .\Release/VERAVG.obj
+         .\Release/VERPOPST.obj
+         .\Release/WULFF.obj
+         .\Release/YEXPARSE.obj
+         .\Release/YTAB.obj
+         .\Release/ZOOM.obj /MACHINE:I386 /FORCE:MULTIPLE 
+     1>png.lib(png.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>png.lib(png.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'png.lib(png.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngerror.lib(pngerror.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngerror.lib(pngerror.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngrio.lib(pngrio.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngrio.lib(pngrio.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngwio.lib(pngwio.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngwio.lib(pngwio.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngmem.lib(pngmem.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngmem.lib(pngmem.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngset.lib(pngset.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngset.lib(pngset.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngget.lib(pngget.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngget.lib(pngget.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngread.lib(pngread.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngread.lib(pngread.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngrtran.lib(pngrtran.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngrtran.lib(pngrtran.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngrutil.lib(pngrutil.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngrutil.lib(pngrutil.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngtrans.lib(pngtrans.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngtrans.lib(pngtrans.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngwrite.lib(pngwrite.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngwrite.lib(pngwrite.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngwtran.lib(pngwtran.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngwtran.lib(pngwtran.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>pngwutil.lib(pngwutil.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'pngwutil.lib(pngwutil.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>adler32.lib(adler32.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'adler32.lib(adler32.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>compress.lib(compress.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'compress.lib(compress.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>crc32.lib(crc32.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'crc32.lib(crc32.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>deflate.lib(deflate.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'deflate.lib(deflate.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>inffast.lib(inffast.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'inffast.lib(inffast.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>inflate.lib(inflate.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'inflate.lib(inflate.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>inftrees.lib(inftrees.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'inftrees.lib(inftrees.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>trees.lib(trees.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'trees.lib(trees.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+     1>zutil.lib(zutil.obj) : warning LNK4099: PDB 'vc80.pdb' was not found with 'zutil.lib(zutil.obj)' or at 'C:\levolver\yonkang-sefit\levolver\ev_ogl\Release\vc80.pdb'; linking object as if no debug info
+         ev_ogl.vcxproj -> C:\levolver\yonkang-sefit\levolver\ev_ogl\.\Release\levolver.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release/levolver.exe;#1" /manifest .\Release\levolver.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Release\ev_ogl.unsuccessfulbuild".
+         Touching ".\Release\ev_ogl.lastbuildstate".
+     1>Done Building Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\ev_ogl.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:29.75

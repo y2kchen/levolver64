@@ -1,0 +1,50 @@
+﻿Build started 3/7/2014 12:02:59 PM.
+     1>Project "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\zlibstatic.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "zlibstatic.dir\Debug\zlibstatic.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/CMakeLists.txt
+         CMake does not need to re-run because C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8" /I"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win64" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D ASMV /D ASMINF /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"zlibstatic.dir\Debug\\" /Fd"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win64/Debug/zlibstaticd.pdb" /Gd /TC /errorReport:prompt "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\adler32.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\compress.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\crc32.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\deflate.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzclose.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzlib.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzread.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\gzwrite.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inflate.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\infback.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inftrees.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\inffast.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\trees.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\uncompr.c" "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\zutil.c"  /Zm1000 
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+         gzread.c
+         gzwrite.c
+         inflate.c
+         infback.c
+         inftrees.c
+         inffast.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\Debug\zlibstaticd.lib" /NOLOGO zlibstatic.dir\Debug\adler32.obj
+         zlibstatic.dir\Debug\compress.obj
+         zlibstatic.dir\Debug\crc32.obj
+         zlibstatic.dir\Debug\deflate.obj
+         zlibstatic.dir\Debug\gzclose.obj
+         zlibstatic.dir\Debug\gzlib.obj
+         zlibstatic.dir\Debug\gzread.obj
+         zlibstatic.dir\Debug\gzwrite.obj
+         zlibstatic.dir\Debug\inflate.obj
+         zlibstatic.dir\Debug\infback.obj
+         zlibstatic.dir\Debug\inftrees.obj
+         zlibstatic.dir\Debug\inffast.obj
+         zlibstatic.dir\Debug\trees.obj
+         zlibstatic.dir\Debug\uncompr.obj
+         zlibstatic.dir\Debug\zutil.obj
+         zlibstatic.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\Debug\zlibstaticd.lib
+       FinalizeBuildStatus:
+         Deleting file "zlibstatic.dir\Debug\zlibstatic.unsuccessfulbuild".
+         Touching "zlibstatic.dir\Debug\zlibstatic.lastbuildstate".
+     1>Done Building Project "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win64\zlibstatic.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.79

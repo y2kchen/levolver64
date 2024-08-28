@@ -1,0 +1,10 @@
+^C:\LEVOLVER64\ZLIB-1.2.8\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/levolver64/zlib-1.2.8 -BC:/levolver64/zlib-1.2.8 --check-stamp-file C:/levolver64/zlib-1.2.8/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

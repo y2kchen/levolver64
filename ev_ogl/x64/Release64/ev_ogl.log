@@ -1,0 +1,196 @@
+﻿  ALICE.C
+  BK.C
+  BOUNDARY.C
+  CALCFORC.C
+  CHECK.C
+  CNSTRNT.C
+  COMMAND.C
+  CURTEST.C
+  DIFFUSE.C
+  DISPLAY.C
+  dodecGroup.c
+  DUMP.C
+  EVAL_ALL.C
+C:\levolver64\ev_ogl\EVAL_ALL.C(134,66): warning C4311: 'type cast': pointer truncation from 'char *' to 'unsigned long'
+C:\levolver64\ev_ogl\EVAL_ALL.C(1263,91): warning C4311: 'type cast': pointer truncation from 'char *' to 'unsigned long'
+C:\levolver64\ev_ogl\EVAL_ALL.C(1495,70): warning C4311: 'type cast': pointer truncation from 'char *' to 'unsigned long'
+  EVAL_SEC.C
+C:\levolver64\ev_ogl\EVAL_SEC.C(157,67): warning C4311: 'type cast': pointer truncation from 'char *' to 'unsigned long'
+C:\levolver64\ev_ogl\EVAL_SEC.C(1718,70): warning C4311: 'type cast': pointer truncation from 'char *' to 'unsigned long'
+  EVALMORE.C
+  EVALTREE.C
+C:\levolver64\ev_ogl\EVALTREE.C(4514,70): warning C4311: 'type cast': pointer truncation from 'char *' to 'unsigned long'
+C:\levolver64\ev_ogl\EVALTREE.C(4612,66): warning C4311: 'type cast': pointer truncation from 'char *' to 'unsigned long'
+C:\levolver64\ev_ogl\EVALTREE.C(4833,70): warning C4311: 'type cast': pointer truncation from 'char *' to 'unsigned long'
+  EXPRINT.C
+  FILGRAPH.C
+  FILML.C
+  FILMQ.C
+  Generating Code...
+  Compiling...
+  FIXVOL.C
+  GAUSS.C
+  geomgraph.c
+  glutgraph.c
+C:\levolver64\ev_ogl\glutgraph.c(469,29): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\levolver64\ev_ogl\glutgraph.c(1085,24): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'size_t'
+C:\levolver64\ev_ogl\glutgraph.c(1085,24): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\glutgraph.c(2702,26): warning C4477: 'sprintf' : format string '%X' requires an argument of type 'unsigned int', but variadic argument 2 has type 'DWORD_PTR'
+C:\levolver64\ev_ogl\glutgraph.c(2702,26): message : consider using '%llX' in the format string
+C:\levolver64\ev_ogl\glutgraph.c(2702,26): message : consider using '%IX' in the format string
+C:\levolver64\ev_ogl\glutgraph.c(2702,26): message : consider using '%I64X' in the format string
+  GRAPHER.C
+  GRAPHGEN.C
+  HELP.C
+  HESSIAN.C
+  HESSIAN2.C
+  HESSIAN3.C
+  HIDIM.C
+  ITERATE.C
+  KHYP.C
+  KLEIN.C
+  KNOT1.C
+  KNOT2.C
+  KNOT3.C
+  KUSNER.C
+  LAGRANGE.C
+  LEXINIT.C
+  Generating Code...
+  Compiling...
+  LEXINIT2.C
+  LEXYY.C
+C:\levolver64\ev_ogl\LEXYY.C(2741,12): warning C4273: 'isatty': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_io.h(493,30): message : see previous definition of 'isatty'
+  MACHINE.C
+  MATRIX.C
+  MEANINT.C
+  METHOD1.C
+  METHOD2.C
+  METHOD3.C
+  METHOD4.C
+  method5.c
+  METIS.C
+C:\metis\metis-4.0\lib\proto.h(459,19): warning C4028: formal parameter 1 different from declaration
+  METRIC.C
+  MINDEG.C
+  MODEL.C
+  MODIFY.C
+  MVGRAPH.C
+  ODRV.C
+  PAINTER.C
+  PIXGRAPH.C
+  POPFILM.C
+  Generating Code...
+  Compiling...
+  PSGRAPH.C
+  QUANTITY.C
+  QUERY.C
+  QUOTIENT.C
+  REGISTRY.C
+  SDRV.C
+  SIMEQUI2.C
+  SIMPLEX.C
+  skeleton.c
+  SOFTIMAG.C
+  SQCURVE.C
+  SQCURVE2.C
+  SQCURVE3.C
+  STORAGE.C
+C:\levolver64\ev_ogl\STORAGE.C(1750,77): warning C4311: 'type cast': pointer truncation from 'char *' to 'unsigned long'
+  STRINGL.C
+  STRINGQ.C
+  SYMTABLE.C
+  TEIX.C
+  tmain.c
+C:\levolver64\ev_ogl\tmain.c(577,26): warning C4477: 'sprintf' : format string '%X' requires an argument of type 'unsigned int', but variadic argument 3 has type 'DWORD_PTR'
+C:\levolver64\ev_ogl\tmain.c(577,26): message : consider using '%llX' in the format string
+C:\levolver64\ev_ogl\tmain.c(577,26): message : consider using '%IX' in the format string
+C:\levolver64\ev_ogl\tmain.c(577,26): message : consider using '%I64X' in the format string
+  TORDUP.C
+  Generating Code...
+  Compiling...
+  TORUS.C
+  TORVOL.C
+  TRIREVIS.C
+  USERFUNC.C
+  userio.c
+  UTILITY.C
+C:\levolver64\ev_ogl\UTILITY.C(302,17): warning C4477: 'sprintf' : format string '%5d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(302,17): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(310,17): warning C4477: 'sprintf' : format string '%5d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(310,17): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(318,17): warning C4477: 'sprintf' : format string '%5d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(318,17): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(326,17): warning C4477: 'sprintf' : format string '%5d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(326,17): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(411,29): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(411,29): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(484,35): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(484,35): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(504,29): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(504,29): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(645,23): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(645,23): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(693,20): warning C4477: 'sprintf' : format string '%5d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(693,20): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(693,20): warning C4477: 'sprintf' : format string '%10d' requires an argument of type 'int', but variadic argument 3 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(693,20): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(743,21): warning C4477: 'sprintf' : format string '%4d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(743,21): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(743,21): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 4 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(743,21): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(743,21): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 5 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(743,21): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(823,20): warning C4477: 'sprintf' : format string '%4d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(823,20): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(826,20): warning C4477: 'sprintf' : format string '%9ld' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(826,20): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(874,20): warning C4477: 'sprintf' : format string '%4d' requires an argument of type 'int', but variadic argument 2 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(874,20): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(874,20): warning C4477: 'sprintf' : format string '%9d' requires an argument of type 'int', but variadic argument 3 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(874,20): message : consider using '%zd' in the format string
+C:\levolver64\ev_ogl\UTILITY.C(874,20): warning C4477: 'sprintf' : format string '%9d' requires an argument of type 'int', but variadic argument 5 has type 'size_t'
+C:\levolver64\ev_ogl\UTILITY.C(874,20): message : consider using '%zd' in the format string
+  variable.c
+  VERAVG.C
+  VERPOPST.C
+  WULFF.C
+  YEXPARSE.C
+  YTAB.C
+ytab.c(884,7): warning C4273: 'malloc': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_malloc.h(101,15): message : see previous definition of 'malloc'
+ytab.c(891,6): warning C4273: 'free': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\corecrt_malloc.h(89,14): message : see previous definition of 'free'
+  ZOOM.C
+  Generating Code...
+png.lib(png.obj) : warning LNK4099: PDB '' was not found with 'png.lib(png.obj)' or at ''; linking object as if no debug info
+pngerror.lib(pngerror.obj) : warning LNK4099: PDB '' was not found with 'pngerror.lib(pngerror.obj)' or at ''; linking object as if no debug info
+pngmem.lib(pngmem.obj) : warning LNK4099: PDB '' was not found with 'pngmem.lib(pngmem.obj)' or at ''; linking object as if no debug info
+pngset.lib(pngset.obj) : warning LNK4099: PDB '' was not found with 'pngset.lib(pngset.obj)' or at ''; linking object as if no debug info
+pngget.lib(pngget.obj) : warning LNK4099: PDB '' was not found with 'pngget.lib(pngget.obj)' or at ''; linking object as if no debug info
+pngread.lib(pngread.obj) : warning LNK4099: PDB '' was not found with 'pngread.lib(pngread.obj)' or at ''; linking object as if no debug info
+pngrtran.lib(pngrtran.obj) : warning LNK4099: PDB '' was not found with 'pngrtran.lib(pngrtran.obj)' or at ''; linking object as if no debug info
+pngrutil.lib(pngrutil.obj) : warning LNK4099: PDB '' was not found with 'pngrutil.lib(pngrutil.obj)' or at ''; linking object as if no debug info
+pngtrans.lib(pngtrans.obj) : warning LNK4099: PDB '' was not found with 'pngtrans.lib(pngtrans.obj)' or at ''; linking object as if no debug info
+pngwrite.lib(pngwrite.obj) : warning LNK4099: PDB '' was not found with 'pngwrite.lib(pngwrite.obj)' or at ''; linking object as if no debug info
+pngwtran.lib(pngwtran.obj) : warning LNK4099: PDB '' was not found with 'pngwtran.lib(pngwtran.obj)' or at ''; linking object as if no debug info
+pngwutil.lib(pngwutil.obj) : warning LNK4099: PDB '' was not found with 'pngwutil.lib(pngwutil.obj)' or at ''; linking object as if no debug info
+crc32.lib(crc32.obj) : warning LNK4099: PDB '' was not found with 'crc32.lib(crc32.obj)' or at ''; linking object as if no debug info
+deflate.lib(deflate.obj) : warning LNK4099: PDB '' was not found with 'deflate.lib(deflate.obj)' or at ''; linking object as if no debug info
+inflate.lib(inflate.obj) : warning LNK4099: PDB '' was not found with 'inflate.lib(inflate.obj)' or at ''; linking object as if no debug info
+inftrees.lib(inftrees.obj) : warning LNK4099: PDB '' was not found with 'inftrees.lib(inftrees.obj)' or at ''; linking object as if no debug info
+trees.lib(trees.obj) : warning LNK4099: PDB '' was not found with 'trees.lib(trees.obj)' or at ''; linking object as if no debug info
+zutil.lib(zutil.obj) : warning LNK4099: PDB '' was not found with 'zutil.lib(zutil.obj)' or at ''; linking object as if no debug info
+pngrio.lib(pngrio.obj) : warning LNK4099: PDB '' was not found with 'pngrio.lib(pngrio.obj)' or at ''; linking object as if no debug info
+pngwio.lib(pngwio.obj) : warning LNK4099: PDB '' was not found with 'pngwio.lib(pngwio.obj)' or at ''; linking object as if no debug info
+adler32.lib(adler32.obj) : warning LNK4099: PDB '' was not found with 'adler32.lib(adler32.obj)' or at ''; linking object as if no debug info
+compress.lib(compress.obj) : warning LNK4099: PDB '' was not found with 'compress.lib(compress.obj)' or at ''; linking object as if no debug info
+inffast.lib(inffast.obj) : warning LNK4099: PDB '' was not found with 'inffast.lib(inffast.obj)' or at ''; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+MSVCRT.lib(initializers.obj) : warning LNK4098: defaultlib 'libcmt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+metis.lib(memory.obj) : error LNK2019: unresolved external symbol __imp___iob_func referenced in function gk_malloc
+metis.lib(error.obj) : error LNK2001: unresolved external symbol __imp___iob_func
+pngerror.lib(pngerror.obj) : error LNK2019: unresolved external symbol __iob_func referenced in function png_default_error
+pngrutil.lib(pngrutil.obj) : error LNK2001: unresolved external symbol __iob_func
+pngwutil.lib(pngwutil.obj) : error LNK2001: unresolved external symbol __iob_func
+C:\levolver64\x64\Release64\ev_ogl.exe : fatal error LNK1120: 2 unresolved externals

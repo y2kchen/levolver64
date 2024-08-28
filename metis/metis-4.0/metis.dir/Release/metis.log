@@ -1,0 +1,176 @@
+﻿  Building Custom Rule C:/metis/metis-4.0/CMakeLists.txt
+  balance.c
+C:\metis\metis-4.0\lib\balance.c(23,20): warning C4101: 'from': unreferenced local variable
+C:\metis\metis-4.0\lib\balance.c(23,13): warning C4101: 'nvtxs': unreferenced local variable
+C:\metis\metis-4.0\lib\balance.c(23,26): warning C4101: 'imax': unreferenced local variable
+C:\metis\metis-4.0\lib\balance.c(24,12): warning C4101: 'id': unreferenced local variable
+C:\metis\metis-4.0\lib\balance.c(23,32): warning C4101: 'gain': unreferenced local variable
+C:\metis\metis-4.0\lib\balance.c(24,17): warning C4101: 'ed': unreferenced local variable
+C:\metis\metis-4.0\lib\balance.c(23,10): warning C4101: 'j': unreferenced local variable
+C:\metis\metis-4.0\lib\balance.c(23,7): warning C4101: 'i': unreferenced local variable
+C:\metis\metis-4.0\lib\balance.c(50,63): warning C4101: 'me': unreferenced local variable
+C:\metis\metis-4.0\lib\balance.c(50,57): warning C4101: 'pass': unreferenced local variable
+C:\metis\metis-4.0\lib\balance.c(176,63): warning C4101: 'me': unreferenced local variable
+C:\metis\metis-4.0\lib\balance.c(176,57): warning C4101: 'pass': unreferenced local variable
+  bucketsort.c
+  ccgraph.c
+C:\metis\metis-4.0\lib\ccgraph.c(24,24): warning C4101: 'l': unreferenced local variable
+C:\metis\metis-4.0\lib\ccgraph.c(332,24): warning C4101: 'l': unreferenced local variable
+  coarsen.c
+  debug.c
+C:\metis\metis-4.0\lib\debug.c(119,10): warning C4101: 'j': unreferenced local variable
+C:\metis\metis-4.0\lib\debug.c(172,13): warning C4101: 'k': unreferenced local variable
+C:\metis\metis-4.0\lib\debug.c(172,16): warning C4101: 'l': unreferenced local variable
+  fm.c
+C:\metis\metis-4.0\lib\fm.c(44,11): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\fm.c(22,63): warning C4101: 'me': unreferenced local variable
+  frename.c
+  graph.c
+C:\metis\metis-4.0\lib\graph.c(101,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\metis\metis-4.0\lib\graph.c(24,13): warning C4101: 'k': unreferenced local variable
+C:\metis\metis-4.0\lib\graph.c(300,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\metis\metis-4.0\lib\graph.c(214,13): warning C4101: 'k': unreferenced local variable
+C:\metis\metis-4.0\lib\graph.c(445,3): warning C4013: '__GKfree' undefined; assuming extern returning int
+C:\metis\metis-4.0\lib\graph.c(493,50): warning C4101: 'wgt': unreferenced local variable
+C:\metis\metis-4.0\lib\graph.c(556,50): warning C4101: 'wgt': unreferenced local variable
+  initpart.c
+C:\metis\metis-4.0\lib\initpart.c(104,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\initpart.c(105,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\initpart.c(106,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\initpart.c(107,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\initpart.c(199,3): warning C4013: '__GKfree' undefined; assuming extern returning int
+C:\metis\metis-4.0\lib\initpart.c(84,105): warning C4101: 'mincut': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(84,84): warning C4101: 'from': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(86,30): warning C4101: 'gain': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(84,113): warning C4101: 'me': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(84,99): warning C4101: 'icut': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(84,117): warning C4101: 'pass': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(230,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\initpart.c(231,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\initpart.c(232,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\initpart.c(233,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\initpart.c(212,116): warning C4101: 'mincut': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(212,95): warning C4101: 'from': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(214,30): warning C4101: 'gain': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(212,124): warning C4101: 'me': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(212,110): warning C4101: 'icut': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(212,128): warning C4101: 'pass': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(366,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\initpart.c(367,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\initpart.c(368,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\initpart.c(369,30): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\initpart.c(348,82): warning C4101: 'mincut': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(348,61): warning C4101: 'from': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(348,17): warning C4101: 'k': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(348,90): warning C4101: 'me': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(348,76): warning C4101: 'icut': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(348,14): warning C4101: 'j': unreferenced local variable
+C:\metis\metis-4.0\lib\initpart.c(348,94): warning C4101: 'pass': unreferenced local variable
+  kmetis.c
+C:\metis\metis-4.0\lib\kmetis.c(31,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\metis\metis-4.0\lib\kmetis.c(70,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\kmetis.c(79,79): warning C4305: 'function': truncation from 'double' to 'float'
+C:\metis\metis-4.0\lib\kmetis.c(47,10): warning C4101: 'j': unreferenced local variable
+C:\metis\metis-4.0\lib\kmetis.c(47,7): warning C4101: 'i': unreferenced local variable
+C:\metis\metis-4.0\lib\kmetis.c(124,3): warning C4013: '__GKfree' undefined; assuming extern returning int
+C:\metis\metis-4.0\lib\kmetis.c(96,13): warning C4101: 'nvtxs': unreferenced local variable
+C:\metis\metis-4.0\lib\kmetis.c(96,20): warning C4101: 'tvwgt': unreferenced local variable
+C:\metis\metis-4.0\lib\kmetis.c(96,10): warning C4101: 'j': unreferenced local variable
+C:\metis\metis-4.0\lib\kmetis.c(96,7): warning C4101: 'i': unreferenced local variable
+C:\metis\metis-4.0\lib\kmetis.c(96,27): warning C4101: 'tpwgts2': unreferenced local variable
+  memory.c
+C:\metis\metis-4.0\lib\memory.c(89,3): warning C4013: '__GKfree' undefined; assuming extern returning int
+  mesh.c
+C:\metis\metis-4.0\lib\mesh.c(76,39): warning C4101: 'nedges': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(171,33): warning C4101: 'm': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(171,30): warning C4101: 'l': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(171,36): warning C4101: 'n': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(171,25): warning C4101: 'kkk': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(220,33): warning C4101: 'm': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(220,30): warning C4101: 'l': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(220,36): warning C4101: 'n': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(220,25): warning C4101: 'kkk': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(269,33): warning C4101: 'm': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(269,30): warning C4101: 'l': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(269,36): warning C4101: 'n': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(269,25): warning C4101: 'kkk': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(342,33): warning C4101: 'm': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(342,30): warning C4101: 'l': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(342,36): warning C4101: 'n': unreferenced local variable
+C:\metis\metis-4.0\lib\mesh.c(342,25): warning C4101: 'kkk': unreferenced local variable
+  meshpart.c
+C:\metis\metis-4.0\lib\meshpart.c(61,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\meshpart.c(101,3): warning C4013: '__GKfree' undefined; assuming extern returning int
+C:\metis\metis-4.0\lib\meshpart.c(163,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  mincover.c
+C:\metis\metis-4.0\lib\mincover.c(118,3): warning C4013: '__GKfree' undefined; assuming extern returning int
+  mmd.c
+  myqsort.c
+C:\metis\metis-4.0\lib\myqsort.c(89,12): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\myqsort.c(140,17): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\myqsort.c(140,38): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\myqsort.c(83,16): warning C4101: 'ii': unreferenced local variable
+C:\metis\metis-4.0\lib\myqsort.c(219,12): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\myqsort.c(270,17): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\myqsort.c(270,38): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\myqsort.c(213,16): warning C4101: 'ii': unreferenced local variable
+C:\metis\metis-4.0\lib\myqsort.c(356,20): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\myqsort.c(407,25): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\myqsort.c(407,48): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\myqsort.c(484,20): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\myqsort.c(535,25): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\myqsort.c(535,48): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+  pmetis.c
+C:\metis\metis-4.0\lib\pmetis.c(31,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\metis\metis-4.0\lib\pmetis.c(73,21): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\pmetis.c(49,10): warning C4101: 'j': unreferenced local variable
+C:\metis\metis-4.0\lib\pmetis.c(118,21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\metis\metis-4.0\lib\pmetis.c(138,3): warning C4013: '__GKfree' undefined; assuming extern returning int
+C:\metis\metis-4.0\lib\pmetis.c(142,23): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+C:\metis\metis-4.0\lib\pmetis.c(143,30): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+C:\metis\metis-4.0\lib\pmetis.c(105,10): warning C4101: 'j': unreferenced local variable
+  refine.c
+C:\metis\metis-4.0\lib\refine.c(79,13): warning C4101: 'k': unreferenced local variable
+C:\metis\metis-4.0\lib\refine.c(79,16): warning C4101: 'l': unreferenced local variable
+C:\metis\metis-4.0\lib\refine.c(83,11): warning C4101: 'other': unreferenced local variable
+  stat.c
+C:\metis\metis-4.0\lib\stat.c(123,3): warning C4013: '__GKfree' undefined; assuming extern returning int
+C:\metis\metis-4.0\lib\stat.c(23,13): warning C4101: 'k': unreferenced local variable
+C:\metis\metis-4.0\lib\stat.c(132,13): warning C4101: 'k': unreferenced local variable
+C:\metis\metis-4.0\lib\stat.c(133,61): warning C4101: 'tmpptr': unreferenced local variable
+C:\metis\metis-4.0\lib\stat.c(250,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\metis\metis-4.0\lib\stat.c(258,60): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\metis\metis-4.0\lib\stat.c(239,9): warning C4101: 'balance': unreferenced local variable
+C:\metis\metis-4.0\lib\stat.c(281,55): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  subdomains.c
+C:\metis\metis-4.0\lib\subdomains.c(58,27): warning C4244: '=': conversion from 'float' to 'idxtype', possible loss of data
+C:\metis\metis-4.0\lib\subdomains.c(59,32): warning C4244: '=': conversion from 'float' to 'idxtype', possible loss of data
+C:\metis\metis-4.0\lib\subdomains.c(60,32): warning C4244: '=': conversion from 'double' to 'idxtype', possible loss of data
+C:\metis\metis-4.0\lib\subdomains.c(24,22): warning C4101: 'jj': unreferenced local variable
+C:\metis\metis-4.0\lib\subdomains.c(349,27): warning C4244: '=': conversion from 'float' to 'idxtype', possible loss of data
+C:\metis\metis-4.0\lib\subdomains.c(350,32): warning C4244: '=': conversion from 'float' to 'idxtype', possible loss of data
+C:\metis\metis-4.0\lib\subdomains.c(351,32): warning C4244: '=': conversion from 'double' to 'idxtype', possible loss of data
+C:\metis\metis-4.0\lib\subdomains.c(314,22): warning C4101: 'jj': unreferenced local variable
+C:\metis\metis-4.0\lib\subdomains.c(314,14): warning C4101: 'iii': unreferenced local variable
+C:\metis\metis-4.0\lib\subdomains.c(753,32): warning C4244: '=': conversion from 'double' to 'idxtype', possible loss of data
+C:\metis\metis-4.0\lib\subdomains.c(885,3): warning C4013: '__GKfree' undefined; assuming extern returning int
+C:\metis\metis-4.0\lib\subdomains.c(895,45): warning C4101: 'myndegrees': unreferenced local variable
+C:\metis\metis-4.0\lib\subdomains.c(895,22): warning C4101: 'jj': unreferenced local variable
+C:\metis\metis-4.0\lib\subdomains.c(895,29): warning C4101: 'l': unreferenced local variable
+C:\metis\metis-4.0\lib\subdomains.c(1111,38): warning C4244: '=': conversion from 'float' to 'idxtype', possible loss of data
+C:\metis\metis-4.0\lib\subdomains.c(1050,75): warning C4101: 'other': unreferenced local variable
+C:\metis\metis-4.0\lib\subdomains.c(1176,45): warning C4101: 'myndegrees': unreferenced local variable
+C:\metis\metis-4.0\lib\subdomains.c(1176,22): warning C4101: 'jj': unreferenced local variable
+C:\metis\metis-4.0\lib\subdomains.c(1176,29): warning C4101: 'l': unreferenced local variable
+  Generating Code...
+  Compiling...
+  timing.c
+  util.c
+C:\metis\metis-4.0\lib\util.c(34,3): warning C4013: 'abort' undefined; assuming extern returning int
+C:\metis\metis-4.0\lib\util.c(26,3): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\metis\metis-4.0\lib\util.c(29,3): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\metis\metis-4.0\lib\util.c(416,10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\metis\metis-4.0\lib\util.c(469,9): warning C4013: 'rand' undefined; assuming extern returning int
+C:\metis\metis-4.0\lib\util.c(499,5): warning C4013: 'srand' undefined; assuming extern returning int
+  Generating Code...
+  metis.vcxproj -> C:\metis\metis-4.0\Release\metis.lib

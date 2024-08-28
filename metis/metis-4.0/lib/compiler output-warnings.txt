@@ -1,0 +1,239 @@
+util.c
+util.c(26) : warning C4996: 'vsprintf' was declared deprecated
+        C:\Program Files\Microsoft Visual Studio 8\VC\INCLUDE\stdio.h(345) : see
+ declaration of 'vsprintf'
+        Message: 'This function or variable may be unsafe. Consider using vsprin
+tf_s instead. To disable deprecation, use _CRT_SECURE_NO_DEPRECATE. See online h
+elp for details.'
+util.c(29) : warning C4996: 'sprintf' was declared deprecated
+        C:\Program Files\Microsoft Visual Studio 8\VC\INCLUDE\stdio.h(345) : see
+ declaration of 'sprintf'
+        Message: 'This function or variable may be unsafe. Consider using sprint
+f_s instead. To disable deprecation, use _CRT_SECURE_NO_DEPRECATE. See online he
+lp for details.'
+        cl  -O2 -I. -c timing.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+timing.c
+        cl  -O2 -I. -c debug.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+debug.c
+        cl  -O2 -I. -c bucketsort.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+bucketsort.c
+        cl  -O2 -I. -c graph.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+graph.c
+        cl  -O2 -I. -c stat.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+stat.c
+        cl  -O2 -I. -c kmetis.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+kmetis.c
+        cl  -O2 -I. -c kwayrefine.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+kwayrefine.c
+        cl  -O2 -I. -c kwayfm.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+kwayfm.c
+        cl  -O2 -I. -c balance.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+balance.c
+        cl  -O2 -I. -c ometis.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+ometis.c
+        cl  -O2 -I. -c srefine.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+srefine.c
+        cl  -O2 -I. -c sfm.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+sfm.c
+        cl  -O2 -I. -c separator.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+separator.c
+        cl  -O2 -I. -c mincover.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mincover.c
+        cl  -O2 -I. -c mmd.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mmd.c
+        cl  -O2 -I. -c mesh.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mesh.c
+        cl  -O2 -I. -c meshpart.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+meshpart.c
+        cl  -O2 -I. -c frename.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+frename.c
+        cl  -O2 -I. -c fortran.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+fortran.c
+        cl  -O2 -I. -c myqsort.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+myqsort.c
+        cl  -O2 -I. -c compress.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+compress.c
+        cl  -O2 -I. -c parmetis.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+parmetis.c
+        cl  -O2 -I. -c estmem.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+estmem.c
+        cl  -O2 -I. -c mpmetis.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mpmetis.c
+        cl  -O2 -I. -c mcoarsen.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mcoarsen.c
+        cl  -O2 -I. -c mmatch.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mmatch.c
+        cl  -O2 -I. -c minitpart.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+minitpart.c
+        cl  -O2 -I. -c mbalance.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mbalance.c
+        cl  -O2 -I. -c mrefine.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mrefine.c
+        cl  -O2 -I. -c mutil.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mutil.c
+        cl  -O2 -I. -c mfm.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mfm.c
+        cl  -O2 -I. -c mkmetis.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mkmetis.c
+        cl  -O2 -I. -c mkwayrefine.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mkwayrefine.c
+        cl  -O2 -I. -c mkwayfmh.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mkwayfmh.c
+        cl  -O2 -I. -c mrefine2.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mrefine2.c
+        cl  -O2 -I. -c minitpart2.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+minitpart2.c
+        cl  -O2 -I. -c mbalance2.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mbalance2.c
+        cl  -O2 -I. -c mfm2.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+mfm2.c
+        cl  -O2 -I. -c kvmetis.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+kvmetis.c
+        cl  -O2 -I. -c kwayvolrefine.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+kwayvolrefine.c
+        cl  -O2 -I. -c kwayvolfm.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+kwayvolfm.c
+        cl  -O2 -I. -c subdomains.c
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 14.00.50727.42 for 80x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+subdomains.c
+        ar rv ../libmetis.a coarsen.o fm.o initpart.o match.o ccgraph.o memory.o
+  pmetis.o pqueue.o refine.o util.o timing.o debug.o  bucketsort.o graph.o stat.
+o kmetis.o kwayrefine.o  kwayfm.o balance.o ometis.o srefine.o sfm.o separator.o
+  mincover.o mmd.o mesh.o meshpart.o frename.o fortran.o  myqsort.o compress.o p
+armetis.o estmem.o  mpmetis.o mcoarsen.o mmatch.o minitpart.o mbalance.o  mrefin
+e.o mutil.o mfm.o mkmetis.o mkwayrefine.o mkwayfmh.o  mrefine2.o minitpart2.o mb
+alance2.o mfm2.o  kvmetis.o kwayvolrefine.o kwayvolfm.o subdomains.o
+'ar' is not recognized as an internal or external command,
+operable program or batch file.
+NMAKE : fatal error U1077: 'ar' : return code '0x1'
+Stop.
+
+C:\metis\metis-4.0\Lib>rem      cd Programs ; make
+
+C:\metis\metis-4.0\Lib>rem cd Test ; make
+C:\metis\metis-4.0\Lib>

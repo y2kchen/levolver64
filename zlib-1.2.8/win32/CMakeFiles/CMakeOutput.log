@@ -1,0 +1,96 @@
+The system is: Windows - 6.1 - x86
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /errorReport:prompt "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\testCCompiler.c"  /Zm1000 
+1>  
+1>  testCCompiler.c
+1>  cmTryCompileExec.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>  cmTryCompileExec.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"  /Zm1000 
+1>  
+1>  CMakeCCompilerABI.c
+1>  cmTryCompileExec.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>  cmTryCompileExec.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /errorReport:prompt "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\CheckIncludeFile.c"  /Zm1000 
+1>  
+1>  CheckIncludeFile.c
+1>  cmTryCompileExec.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>  cmTryCompileExec.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /errorReport:prompt "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\CheckIncludeFile.c"  /Zm1000 
+1>  
+1>  CheckIncludeFile.c
+1>  cmTryCompileExec.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>  cmTryCompileExec.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug x64 ------
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/levolver/yonkang-sefit/levolver/zlib-1.2.8/win32/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /errorReport:prompt "C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\CheckIncludeFile.c"  /Zm1000 
+1>  
+1>  CheckIncludeFile.c
+1>  cmTryCompileExec.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>  cmTryCompileExec.vcxproj -> C:\levolver\yonkang-sefit\levolver\zlib-1.2.8\win32\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+

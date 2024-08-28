@@ -1,0 +1,32 @@
+﻿Build started 3/7/2014 1:42:07 PM.
+     1>Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\libpng.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\DLL Release\libpng.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\x64\DLL Release\libpng.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\DLL Release\libpng.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\x64\DLL Release\libpng.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\x64\DLL Release\libpng.lib" /MACHINE:X64 "x64\DLL Release\pngw32.res"
+         "x64\DLL Release\png.obj"
+         "x64\DLL Release\pngerror.obj"
+         "x64\DLL Release\pngget.obj"
+         "x64\DLL Release\pngmem.obj"
+         "x64\DLL Release\pngpread.obj"
+         "x64\DLL Release\pngread.obj"
+         "x64\DLL Release\pngrio.obj"
+         "x64\DLL Release\pngrtran.obj"
+         "x64\DLL Release\pngrutil.obj"
+         "x64\DLL Release\pngset.obj"
+         "x64\DLL Release\pngtrans.obj"
+         "x64\DLL Release\pngvcrd.obj"
+         "x64\DLL Release\pngwio.obj"
+         "x64\DLL Release\pngwrite.obj"
+         "x64\DLL Release\pngwtran.obj"
+         "x64\DLL Release\pngwutil.obj"
+     1>LINK : fatal error LNK1561: entry point must be defined
+     1>Done Building Project "C:\levolver\yonkang-sefit\levolver\ev_ogl\lpng1218x64\lpng1218\projects\visualc71\libpng.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.09

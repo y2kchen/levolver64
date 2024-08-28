@@ -1,0 +1,12 @@
+
+
+C:\metis\metis-4.0\Lib>rem      cd Programs ; make
+
+C:\metis\metis-4.0\Lib>rem cd Test ; make
+C:\metis\metis-4.0\Lib>
+C:\metis\metis-4.0\Lib>lib /out:metis_w.lib /subsystem:Windows /nologo *.obj
+
+C:\metis\metis-4.0\Lib>lib /out:metis_console.lib /subsystem:console /nologo *.o
+bj
+
+C:\metis\metis-4.0\Lib>lib /out:metis_native.lib /subsystem:native /nologo *.obj
