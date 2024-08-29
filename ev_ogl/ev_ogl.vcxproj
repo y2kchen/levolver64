@@ -77,7 +77,7 @@
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release64|x64'">
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release64|Win32'">
     <PlatformToolset>v143</PlatformToolset>
@@ -201,9 +201,9 @@
     <ClCompile>
       <AdditionalOptions>/wd4131  /wd4100 %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>\glut;\metis\metis-4.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\metis\metis-4.0\Release;\glut;\metis\metis-4.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>__L_EVOLVER__;_DEBUG;WIN32;_CONSOLE;MSC;MAXCOORD=10;METIS;OPENGL;WINTHREADS;MEMSTRINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <PrecompiledHeaderOutputFile>.\Debug/ev_ogl.pch</PrecompiledHeaderOutputFile>
@@ -225,7 +225,7 @@
       <AdditionalDependencies>Psapi.lib;glut32.lib;odbc32.lib;setargv.obj;odbccp32.lib;metis.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>.\Debug/ev_ogl.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>c:\glut;c:\metis\metis-4.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\levolver64\ev_ogl\lib64;C:\levolver64\glut64;C:\metis\metis-5.1.0\build\windows\Debug;c:\glut;c:\metis\metis-4.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>.\Debug/ev_ogl.pdb</ProgramDatabaseFile>
@@ -283,10 +283,10 @@
     </Midl>
     <ClCompile>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <AdditionalIncludeDirectories>\glut;\metis\metis-4.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\metis\metis-4.0\Release;\glut;\metis\metis-4.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>DPSAPI_VERSION=1;__L_EVOLVER__;NDEBUG;WIN32;_CONSOLE;MSC;MAXCOORD=6;METIS;OPENGL;WINTHREADS;INLINE=__inline;MEMSTRINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeaderOutputFile>.\Release/ev_ogl.pch</PrecompiledHeaderOutputFile>
       <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
@@ -306,7 +306,7 @@
       <AdditionalDependencies>Psapi.lib;glu32.lib;opengl32.lib;odbc32.lib;odbccp32.lib;setargv.obj;glut32.lib;metis.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>.\Release/levolver.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>C:\glut;C:\metis\metis-4.0\Lib;c:\metis\metis4;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\levolver64\ev_ogl\lib64;C:\levolver64\glut64;C:\metis\metis-5.1.0\build\windows\Debug;C:\glut;C:\metis\metis-4.0\Lib;c:\metis\metis4;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
@@ -367,9 +367,9 @@
     <ClCompile>
       <AdditionalOptions>/wd4131  /wd4100 %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>\glut;\metis\metis-4.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\metis\metis-4.0\Release;\glut;\metis\metis-4.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>__L_EVOLVER__;_DEBUG;WIN32;_CONSOLE;MSC;MAXCOORD=10;METIS;OPENGL;WINTHREADS;MEMSTRINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader>
       </PrecompiledHeader>
       <PrecompiledHeaderOutputFile>.\Debug/ev_ogl.pch</PrecompiledHeaderOutputFile>
@@ -391,7 +391,7 @@
       <AdditionalDependencies>opengl32.lib;glaux.lib;glut32.lib;glu32.lib;odbc32.lib;setargv.obj;odbccp32.lib;metis.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>.\Debug/ev_ogl.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>\glut;\metis\metis-4.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\levolver64\ev_ogl\lib64;C:\levolver64\glut64;C:\metis\metis-5.1.0\build\windows\Debug;\glut;\metis\metis-4.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>.\Debug/ev_ogl.pdb</ProgramDatabaseFile>
@@ -404,13 +404,14 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release64|x64'">
     <Link>
-      <AdditionalDependencies>legacy_stdio_definitions.lib;glut64.lib;Psapi.lib;glu32.lib;opengl32.lib;odbc32.lib;odbccp32.lib;setargv.obj;metis.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glut64.lib;Psapi.lib;glu32.lib;opengl32.lib;odbc32.lib;odbccp32.lib;setargv.obj;metis.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <AdditionalLibraryDirectories>C:\levolver64\ev_ogl\lib64;..\glut64;C:\metis\metis-5.1.0\build\windows\libmetis\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\levolver64\ev_ogl\lib64;C:\levolver64\glut64;C:\metis\metis-5.1.0\build\windows\Debug;..\glut64;C:\metis\metis-5.1.0\build\windows\libmetis\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ClCompile>
       <AdditionalIncludeDirectories>C:\metis\metis-4.0\lib;%Program Files%\Microsoft SDKs\Windows\v7.0A\Include\gl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>DPSAPI_VERSION=1;__L_EVOLVER__;NDEBUG;WIN64;_CONSOLE;MSC;MAXCOORD=6;METIS;OPENGL;WINTHREADS;INLINE=__inline;MEMSTRINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>

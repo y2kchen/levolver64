@@ -395,6 +395,7 @@ int ZEXPORT gzread (file, buf, len)
     gzFile file;
     voidp buf;
     unsigned len;
+//int ZEXPORT gzread(gzFile file, voidp buf, unsigned len)
 {
     gz_stream *s = (gz_stream*)file;
     Bytef *start = (Bytef*)buf; /* starting point for crc computation */
@@ -502,6 +503,7 @@ int ZEXPORT gzread (file, buf, len)
 */
 int ZEXPORT gzgetc(file)
     gzFile file;
+//int ZEXPORT gzgetc(gzFile file)
 {
     unsigned char c;
 
